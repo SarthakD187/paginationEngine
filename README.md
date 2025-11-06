@@ -1,6 +1,9 @@
 # Pagination Engine
 
-A comprehensive and robust pagination engine for React applications, similar to Google Docs/Apple Pages. This library provides sophisticated document layout capabilities with features like dynamic page breaks, orphan/widow control, headers and footers, and support for various content types.
+*NOTE: I did not realize how genuinely impossible it was to create a Google Doc like pagination engine. This pagination engine is functional nowhere close to what I had imagined.*
+
+
+A comprehensive and robust pagination engine for React applications. This library provides sophisticated document layout capabilities with features like dynamic page breaks, orphan/widow control, headers and footers, and support for various content types.
 
 ## 🎯 Live Document Editor
 
