@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Test - Pagination Engine</title>
+  <script type="module">
+    import { usePagination, PaginatedDocument } from '/dist/pagination-engine.es.js';
+    import React from 'https://esm.sh/react@19.2.0';
+    import ReactDOM from 'https://esm.sh/react-dom@19.2.0/client';
+
+    // Add your custom content here
+    const customContent = [
+      {
+        content: {
+          type: 'text',
+          id: 'test-1',
+          text: 'My Custom Test Document',
+          style: {
+            fontSize: 32,
+            fontWeight: 'bold',
+            textAlign: 'center',
+          }
+        }
+      },
+      {
+        content: {
+          type: 'text',
+          id: 'test-2',
+          text: 'Add your own content here to test the pagination engine!',
+          style: {
+            fontSize: 16,
+            lineHeight: 1.6,
+          }
+        }
+      }
+    ];
+
+    console.log('Custom test loaded!');
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+  <p>Check the browser console for more details.</p>
+</body>
+</html>
